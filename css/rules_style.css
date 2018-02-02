@@ -1,0 +1,54 @@
+#rules_title {
+	width: 1000px;
+	margin-left: 100px;
+	text-align: center;
+}
+#rules_block {
+	width: 1000px;
+	height: 1000px;
+	border: 1px solid black;
+	margin-left: 100px;
+	font-size: 20px;
+	line-height: 1.5;
+	text-indent: 20px;
+	
+
+
+}
+.blocks_example {
+	
+	float: left;
+	height: 25px;
+	width: 25px;
+	
+
+
+	
+
+}
+#green_block {
+	background-color: green;
+
+}
+#blue_block {
+	background-color: blue;
+}
+#yellow_block {
+	background-color: yellow;
+}
+.block_description {
+	background-color: white;
+	
+	
+	
+	margin-left: 50px;
+	height: 60px;
+}
+
+#to_game {
+	width: 200px;
+	margin-left: 400px;
+	margin-right: 400px;
+	margin-top: 200px;
+
+}

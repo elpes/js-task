@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Remove the blocks!</title>
+	<link rel="stylesheet" href="css/index_style.css">
+	<script src="javascript/js.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+
+</head>
+<body>
+		<div id="game_info_panel">
+			<h1>Remove the blocks!</h1><br>
+			<div id="button_pannel" class="panel_element">
+				<button id="start" class="btn btn-primary">Start</button>
+				<button id="newgame" class="btn btn-primary">New Game</button>
+			</div>
+			<div id="rate_panel" class="panel_element">
+				<span>Points: </span>
+				<h1 id="rate">0</h1>
+			</div>
+			<div id="time_panel" class="panel_element">
+				<span> Time left: </span>
+				<h2 id="timer" class="game_info">1:00</h2>
+			</div>
+			<div id="results_title">
+			 	<h1>Players rating:</h1>
+			  </div>
+		</div>
+	<div id="game"></div>
+	
+	<div id="results_block" >
+		<ol id="results">
+		
+		</ol>
+	</div>
+	<button id="to_rules" class="btn btn-primary" onclick="window.location.href='rules.html'">
+		How to play?
+	</button>
+	<div class="modal" id="modal_window">
+		<div class="modal-content" id="modal_window_content">
+			<div class="modal-header"></div>
+			<div class="modal-body" id="modal_window_body">
+				<div id="rate_msg"></div>
+					<span id="name_block">
+					<span>Name:</span>
+					<input type="text" id="name_field">
+					</span>
+				<button class="btn btn-default"  id="name_submit">
+					SAVE
+				</button>
+
+			</div>
+
+		</div>
+	</div>
+
+
+
+
+</body>
+
+
+</html>

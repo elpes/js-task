@@ -1,0 +1,142 @@
+.panel_element { float: left;  }
+#results_title {
+	margin-left: 920px;
+	
+}
+#results {
+	font-size: 18px;
+} 
+
+
+#newgame {
+	border-radius: 30px;
+	margin-left: 30px;
+	
+}
+
+#start {
+	border-radius: 30px;
+}
+#game {
+	float: left;
+	width: 842px;
+	height: 572px;
+	background: white;
+	margin-left:0px;
+	margin-right: 50px;
+	float: left;
+	border: 1px solid black;
+	margin-top:0px;
+	margin-left: 30px;
+	
+}
+#game_info_panel {
+	float: left;
+	margin-left: 30px;
+}
+#results_block {
+	border: 1px solid black;
+	width: 240px;
+	height: 570px;
+	margin-right: 100px;
+	margin-left: 0px;
+	
+	
+	float: right;
+
+}
+
+.block {
+	width: 30px;
+	height: 30px;
+	float: left;
+	border: 1px solid white;
+	box-sizing: border-box;
+	
+	
+}
+#modal_window_content {
+
+	height: 420px;
+	width: 690;
+
+}
+#modal_window_body {
+	height: 220px;
+
+}
+#modal_window {
+
+	width: 690px;
+	height: 420px;
+	margin-left: 240px;
+	margin-top: 240px;
+	font-size: 20px;
+
+}
+#time_panel {
+
+	margin-left: 230px;
+	margin-top: 0px;
+	width: 100px;
+	
+
+}
+#rate_panel {
+
+	margin-left: 230px;
+	width: 100px;
+	
+}
+#button_pannel {
+	margin-right: 0px;
+	
+	margin-top: 0px;
+	padding-top: 35px;
+	padding-right: 0px;
+
+
+}
+#timer {
+	border: 1px solid black;
+}
+#rate {
+	border: 1px solid black;
+}
+#name_block {
+
+	margin-top: 25px;
+	
+	width: 200px;
+	height: 25px;
+	padding: 0 0 0 0;
+	
+
+}
+#name_submit {
+	margin-left: 200px;
+	width: 160px;
+	height: 60px;
+	margin-top: 100px;
+
+}
+#to_rules {
+	margin-top: 30px;
+	margin-left: 100px;
+	float: left;
+}
+#modal_window_footer {
+
+	height: 100px;
+
+}
+#rate_msg {
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+#name_field {
+	margin-left: 10px;
+	height: 22px;
+
+
+}
